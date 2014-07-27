@@ -129,4 +129,4 @@ for (j in 2:80){
   res[(6*(j-2)+5), 9] <- set_2[5,j]
   res[(6*(j-2)+6), 9] <- set_2[6,j]  
 }
-write.table(res, file = "tidy_data.txt", row.names = FALSE)
+write.csv(res, file = "tidy_data.csv", row.names = FALSE)
